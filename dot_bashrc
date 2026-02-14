@@ -1,0 +1,9 @@
+source ~/.zshrc
+
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/mac/.lmstudio/bin"
+. "$HOME/.cargo/env"
+
+# test
+
