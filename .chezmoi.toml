@@ -1,0 +1,5 @@
+# 加密配置：公钥可进仓库，私钥仅本机 ~/.config/chezmoi/key.txt
+encryption = "age"
+
+[age]
+recipient = "age1mnx3qaal76ccl93d38uj59w53kgalfv7magx9kt5mpq0e5k7zgmq4vunsp"

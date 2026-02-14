@@ -1,0 +1,11 @@
+
+  export HOMEBREW_PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple #ckbrew
+  export HOMEBREW_API_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/api  #ckbrew
+  export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles #ckbrew
+  eval $(/opt/homebrew/bin/brew shellenv) #ckbrew
+
+# alias python="/opt/homebrew/Cellar/python@3.10/3.10.13/bin/python3.10"
+# alias python3="/opt/homebrew/Cellar/python@3.10/3.10.13/bin/python3.10"
+
+# Added by OrbStack: command-line tools and integration
+source ~/.orbstack/shell/init.zsh 2>/dev/null || :
